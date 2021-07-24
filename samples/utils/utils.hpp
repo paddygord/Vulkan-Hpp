@@ -455,7 +455,6 @@ namespace vk
 #endif
     );
     std::vector<std::string>             getDeviceExtensions();
-    std::vector<std::string>             getInstanceExtensions();
     vk::DebugUtilsMessengerCreateInfoEXT makeDebugUtilsMessengerCreateInfoEXT();
 #if defined( NDEBUG )
     vk::StructureChain<vk::InstanceCreateInfo>
