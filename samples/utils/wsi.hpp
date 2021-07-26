@@ -32,7 +32,6 @@ namespace vk
     {
       std::vector<std::string> extensions;
       extensions.push_back( VK_KHR_SURFACE_EXTENSION_NAME );
-      extensions.push_back( VK_KHR_XCB_SURFACE_EXTENSION_NAME );
 #if defined( VK_USE_PLATFORM_ANDROID_KHR )
       extensions.push_back( VK_KHR_ANDROID_SURFACE_EXTENSION_NAME );
 #elif defined( VK_USE_PLATFORM_IOS_MVK )
